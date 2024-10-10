@@ -13,6 +13,12 @@
         android:theme="@style/Theme.WorkshopDay2"
         tools:targetApi="31">
         <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLifecycle"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
